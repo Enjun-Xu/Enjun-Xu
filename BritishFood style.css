@@ -1,0 +1,110 @@
+header img {
+    max-width: 400px;
+    align-items: right;
+    text-align: left;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /*Font*/
+    /*字体*/
+    margin: 0;
+    /*Margin*/
+    /*边距*/
+    padding: 0;
+    /*Inside margin*/
+    /*内边距*/
+}
+
+.container {
+    max-width: 800px;
+    /*Maximum page width is 800px*/
+    /*页面最大宽度为800px*/
+    margin: 0 auto;
+    /*Page horizontal center display*/
+    /*页面水平居中显示*/
+    padding: 20px;
+    /*The inside margin is 20px*/
+    /*内边距为20px*/
+}
+
+.title {
+    font-size: 24px;
+    /*Font size 24px*/
+    /*字体大小24px*/
+    font-weight: bold;
+    /*Bold*/
+    /*加粗*/
+    text-align: center;
+    /*Center align*/
+    /*居中对齐*/
+    margin-bottom: 20px;
+    /*Bottom margin is 20px*/
+    /*下边距为20px*/
+}
+
+.content {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    /*The style of the divider is 1px solid line*/
+    /*分割线的的样式，为1px的实线*/
+    margin-bottom: 20px;
+    /*Bottom margin is 20px*/
+    /*下边距为20px*/
+}
+
+.recommendation {
+    font-weight: bold;
+    /*Bold*/
+    /*加粗*/
+    margin-bottom: 10px;
+    /*Bottom margin is 10px*/
+    /*下边距为10px*/
+}
+
+.restaurant {
+    margin-bottom: 20px;
+    /*Bottom margin is 20px*/
+    /*下边距为20px*/
+}
+
+.restaurant img {
+    width: 200px;
+    /*Width is 200px*/
+    /*宽度为200px*/
+    height: 150px;
+    /*The height is 150px*/
+    /*高度为150px*/
+    object-fit: cover;
+    /*Fill mode is overlay*/
+    /*填充方式为覆盖*/
+    margin-right: 10px;
+    /*The right margin is 10px*/
+    /*右边距为10px*/
+    margin-bottom: 10px;
+    /*Bottom margin is 10px*/
+    /*下边距为10px*/
+}
+
+nav ul {
+    font-size: large;
+    list-style: none;
+    text-align: center;
+    background-color: #fd902a;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
