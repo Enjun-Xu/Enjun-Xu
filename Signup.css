@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.box {
+    width: 100%;
+}
+
+.tou {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+.tou ul {
+    line-height: 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tou img {
+    max-width: 400px;
+    align-items: right;
+    text-align: left;
+    padding: 20px;
+}
+
+.tou li a {
+    display: block;
+    color: rgb(249, 134, 10);
+    padding: 0 85px;
+    font-size: 20px;
+}
+
+.container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    column-gap: 30px;
+}
+
+.container forms img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form {
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fc832d;
+}
+
+.form.signup {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.forms.show-signup .form.signup {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.forms.show-signup .form.login {
+    opacity: 0;
+    pointer-events: none;
+}
+
+header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.form .field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.field input,
+.field button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.field input {
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+
+.field input:focus {
+    border-bottom-width: 2px;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.field button {
+    color: #fff;
+    background-color: #341d0f;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.field button:hover {
+    background-color: #341d0f;
+}
+
+.form-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-link span,
+.form-link a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+
+.form a {
+    color: #ffdbc5;
+    text-decoration: none;
+}
+
+.contact {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    padding: 13px;
+    height: 210px;
+    background-color: rgb(250, 147, 30);
+    color: white;
+}
+
+.contact h3 {
+    font-size: 25px;
+    color: antiquewhite;
+    line-height: 35px;
+}
+
+.contact h4 {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.contact img {
+    height: 80px;
+    margin: 55px;
+}
+
+.con {
+    width: 300px;
+    padding: 20px;
+}

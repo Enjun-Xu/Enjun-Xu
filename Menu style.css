@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.box {
+    width: 100%;
+}
+
+.tou {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+.tou ul {
+    line-height: 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tou img {
+    max-width: 400px;
+    align-items: right;
+    text-align: left;
+    padding: 20px;
+}
+
+.tou li a {
+    display: block;
+    color: rgb(249, 134, 10);
+    padding: 0 85px;
+    font-size: 20px;
+}
+
+.region {
+    display: flex;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+    height: 60px;
+    background-color: rgb(254, 138, 48);
+}
+
+.container {
+    display: flex;
+    /*sets the container to a flex layout*/
+    /*将容器设置为flex布局*/
+    justify-content: space-around;
+    /*centers the element horizontally in the container */
+    /*将元素在容器中的水平居中*/
+    align-items: center;
+    /*centers the element vertically in the container*/
+    /*将元素在容器中垂直居中*/
+    flex-wrap: wrap;
+    /*allows for line wrapping in the container*/
+    /*允许在容器中进行换行*/
+}
+
+
+/*This code defines "container"*/
+
+
+/*这段代码定义为“.container“*/
+
+.category {
+    width: 30%;
+    /* The width of each element is set to 30% of the container */
+    /*每个元素的宽度设置为容器的30%*/
+    margin-bottom: 70px;
+    /*The bottom margin of the element is set to 70 pixels*/
+    /*元素的底部外边距设置为70像素*/
+    padding: 70px;
+    /*The inside margin of the element is set to 70 pixels*/
+    /*元素的内边距设置为70像素*/
+    border-radius: 5px;
+    /*Center the element vertically in the container*/
+    /*将元素在容器中垂直居中*/
+    text-align: center;
+    flex: 1
+}
+
+
+/* This code is defined as "category" where each element represents a category */
+
+
+/*这段代码定义为“.category”每个元素代表一个类别*/
+
+.category img {
+    width: 200px;
+    height: 200px;
+    /* Set the width and height of the image to 200px*/
+    /*将图片的宽度和高度设置成200px*/
+    object-fit: cover;
+    /* Scale the image to fill the entire container */
+    /*将图片按比例缩放填满整个容器*/
+    border-radius: 50%;
+    /* Set the rounded corner of the image to a 50% radius to make it appear circular */
+    /*将图片的边框圆角设置为50%的半径，使其呈现圆形*/
+    margin-bottom: 10px;
+    /* Set the bottom margin of the image to 10px*/
+    /*设置图片的底部外边距为10px*/
+}
+
+
+/* This code is defined as ".category img"*/
+
+
+/*这段代码定义为".category img"*/
+
+.search{
+    text-align: center;
+}
+#search_input{
+    width: 500px;
+    height: 38px;
+    border-radius: 10px;
+    padding: 10px 0 10px 14px;
+    margin: 20px auto 0;
+}

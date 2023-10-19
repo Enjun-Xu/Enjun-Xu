@@ -1,20 +1,54 @@
-header img {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.box {
+    width: 100%;
+}
+
+.tou {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+.tou ul {
+    line-height: 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tou img {
     max-width: 400px;
     align-items: right;
     text-align: left;
     padding: 20px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    /*Font*/
-    /*字体*/
-    margin: 0;
-    /*Margin*/
-    /*边距*/
-    padding: 0;
-    /*Inside margin*/
-    /*内边距*/
+.tou li a {
+    display: block;
+    color: rgb(249, 134, 10);
+    padding: 0 85px;
+    font-size: 20px;
 }
 
 .container {
@@ -42,6 +76,15 @@ body {
     margin-bottom: 20px;
     /*Bottom margin is 20px*/
     /*下边距为20px*/
+    display: flex;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+    height: 60px;
+    background-color: rgb(254, 138, 48);
 }
 
 .content {
@@ -65,19 +108,33 @@ body {
     margin-bottom: 10px;
     /*Bottom margin is 10px*/
     /*下边距为10px*/
+    display: flex;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+    height: 60px;
+    background-color: rgb(254, 138, 48);
 }
 
 .restaurant {
     margin-bottom: 20px;
     /*Bottom margin is 20px*/
     /*下边距为20px*/
+    padding: 100px;
+}
+
+.restaurant p {
+    font-size: 20px;
 }
 
 .restaurant img {
-    width: 200px;
+    width: 500px;
     /*Width is 200px*/
     /*宽度为200px*/
-    height: 150px;
+    height: 400px;
     /*The height is 150px*/
     /*高度为150px*/
     object-fit: cover;
@@ -107,4 +164,34 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: #fff;
+}
+
+.contact {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    padding: 13px;
+    height: 210px;
+    background-color: rgb(250, 147, 30);
+    color: white;
+}
+
+.contact h3 {
+    font-size: 25px;
+    color: antiquewhite;
+    line-height: 35px;
+}
+
+.contact h4 {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.contact img {
+    height: 80px;
+    margin: 55px;
+}
+
+.con {
+    width: 300px;
+    padding: 20px;
 }
